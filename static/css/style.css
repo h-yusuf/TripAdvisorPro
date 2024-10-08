@@ -1,0 +1,569 @@
+.KLIK-FILM {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .KLIK-FILM .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 3559px;
+    position: relative;
+  }
+  
+  .KLIK-FILM .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 720px;
+    top: 0;
+    left: 0;
+    background-image: url(./img/image-4.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .KLIK-FILM .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 357px;
+    top: 363px;
+    left: 0;
+  }
+  
+  .KLIK-FILM .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 308px;
+    top: 49px;
+    left: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 31.76%, rgba(0, 0, 0, 0.95) 100%);
+  }
+  
+  .KLIK-FILM .text-wrapper {
+    position: absolute;
+    height: 77px;
+    top: 0;
+    left: 85px;
+    font-family: "Gideon Roman-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .KLIK-FILM .p {
+    position: absolute;
+    height: 27px;
+    top: 91px;
+    left: 81px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .KLIK-FILM .frame {
+    width: 261px;
+    gap: 95px;
+    padding: 6px 8px;
+    left: 81px;
+    border-radius: 9px;
+    display: flex;
+    height: 58px;
+    align-items: center;
+    position: absolute;
+    top: 189px;
+    background-color: #116a7b;
+  }
+  
+  .KLIK-FILM .text-wrapper-2 {
+    position: relative;
+    width: 87px;
+    height: 28px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #ece5c7;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .KLIK-FILM .ion-caret-back {
+    position: relative;
+    width: 45px;
+    height: 45px;
+  }
+  
+  .KLIK-FILM .frame-2 {
+    width: 821px;
+    gap: 23px;
+    padding: 11px 30px;
+    left: 417px;
+    border-radius: 11px;
+    display: flex;
+    height: 58px;
+    align-items: center;
+    position: absolute;
+    top: 189px;
+    background-color: #116a7b;
+  }
+  
+  .KLIK-FILM .vector {
+    position: relative;
+    width: 35.11px;
+    height: 35.12px;
+  }
+  
+  .KLIK-FILM .text-wrapper-3 {
+    position: relative;
+    width: 127.13px;
+    height: 28.36px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ece5c7;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .KLIK-FILM .div-wrapper {
+    width: 98px;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 21px;
+    left: 1261px;
+    border-radius: 9px;
+    display: flex;
+    height: 58px;
+    align-items: center;
+    position: absolute;
+    top: 189px;
+    background-color: #116a7b;
+  }
+  
+  .KLIK-FILM .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -2.5px;
+    margin-bottom: -0.5px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #ece5c7;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .KLIK-FILM .overlap-2 {
+    position: absolute;
+    width: 1440px;
+    height: 124px;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+  }
+  
+  .KLIK-FILM .rectangle-2 {
+    position: absolute;
+    width: 687px;
+    height: 45px;
+    top: 17px;
+    left: 356px;
+    background-color: #afafaf59;
+  }
+  
+  .KLIK-FILM .search {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 24px;
+    left: 992px;
+  }
+  
+  .KLIK-FILM .group {
+    position: absolute;
+    width: 1458px;
+    height: 389px;
+    top: 3170px;
+    left: 0;
+  }
+  
+  .KLIK-FILM .overlap-group-2 {
+    position: relative;
+    width: 1440px;
+    height: 389px;
+    background-color: #000000;
+  }
+  
+  .KLIK-FILM .home-about-us-what-w {
+    position: absolute;
+    width: 141px;
+    top: 127px;
+    left: 300px;
+    opacity: 0.8;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .KLIK-FILM .navigation {
+    position: absolute;
+    top: 95px;
+    left: 299px;
+    font-family: "Proxima Nova-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .KLIK-FILM .general-info-privacy {
+    position: absolute;
+    top: 127px;
+    left: 540px;
+    opacity: 0.8;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .KLIK-FILM .text-wrapper-5 {
+    position: absolute;
+    top: 95px;
+    left: 540px;
+    font-family: "Proxima Nova-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .KLIK-FILM .support-apcom-com {
+    position: absolute;
+    top: 129px;
+    left: 789px;
+    opacity: 0.8;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .KLIK-FILM .text-wrapper-6 {
+    position: absolute;
+    top: 95px;
+    left: 789px;
+    font-family: "Proxima Nova-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .KLIK-FILM .TALK-TO-US {
+    position: absolute;
+    top: 95px;
+    left: 1060px;
+    font-family: "Proxima Nova-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .KLIK-FILM .social {
+    position: absolute;
+    width: 145px;
+    height: 39px;
+    top: 129px;
+    left: 1060px;
+  }
+  
+  .KLIK-FILM .twitter-icon {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    top: 0;
+    left: 106px;
+    border-radius: 19.5px;
+    border: 1px solid;
+    border-color: var(--white);
+  }
+  
+  .KLIK-FILM .twitter {
+    position: absolute;
+    width: 13px;
+    height: 11px;
+    top: 13px;
+    left: 12px;
+  }
+  
+  .KLIK-FILM .linkedin-icon {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    top: 0;
+    left: 53px;
+    border-radius: 19.5px;
+    border: 1px solid;
+    border-color: var(--white);
+  }
+  
+  .KLIK-FILM .img {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 11px;
+    left: 12px;
+  }
+  
+  .KLIK-FILM .facebook-icon {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    top: 0;
+    left: 0;
+    border-radius: 19.5px;
+    border: 1px solid;
+    border-color: var(--white);
+  }
+  
+  .KLIK-FILM .shape {
+    position: absolute;
+    width: 7px;
+    height: 15px;
+    top: 11px;
+    left: 15px;
+  }
+  
+  .KLIK-FILM .element-APCOM-all-ri {
+    position: absolute;
+    top: 334px;
+    left: 601px;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 14px;
+    white-space: nowrap;
+  }
+  
+  .KLIK-FILM .overlap-3 {
+    position: absolute;
+    width: 131px;
+    height: 34px;
+    top: 95px;
+    left: 81px;
+    background-color: #000000;
+  }
+  
+  .KLIK-FILM .globe {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 8px;
+    left: 15px;
+  }
+  
+  .KLIK-FILM .home-about-us-what-w-2 {
+    position: absolute;
+    top: 2px;
+    left: 46px;
+    opacity: 0.8;
+    font-family: "Roboto-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+  
+  .KLIK-FILM .vector-2 {
+    position: absolute;
+    width: 10px;
+    height: 6px;
+    top: 16px;
+    left: 112px;
+  }
+  
+  .KLIK-FILM .overlap-4 {
+    position: absolute;
+    width: 382px;
+    height: 502px;
+    top: 831px;
+    left: 115px;
+    background-image: url(./img/rectangle-58.png);
+    background-size: 100% 100%;
+  }
+  
+  .KLIK-FILM .rectangle-3 {
+    position: absolute;
+    width: 382px;
+    height: 154px;
+    top: 348px;
+    left: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.95) 38.1%);
+  }
+  
+  .KLIK-FILM .keraton {
+    position: absolute;
+    width: 358px;
+    height: 117px;
+    top: 365px;
+    left: 10px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .KLIK-FILM .overlap-5 {
+    position: absolute;
+    width: 382px;
+    height: 502px;
+    top: 1373px;
+    left: 115px;
+    background-image: url(./img/rectangle-63.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .KLIK-FILM .overlap-6 {
+    position: absolute;
+    width: 382px;
+    height: 502px;
+    top: 1915px;
+    left: 115px;
+    background-image: url(./img/rectangle-69.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .KLIK-FILM .overlap-7 {
+    position: absolute;
+    width: 382px;
+    height: 502px;
+    top: 2457px;
+    left: 115px;
+    background-image: url(./img/rectangle-75.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .KLIK-FILM .overlap-8 {
+    position: absolute;
+    width: 382px;
+    height: 502px;
+    top: 831px;
+    left: 529px;
+    background-image: url(./img/rectangle-59.png);
+    background-size: 100% 100%;
+  }
+  
+  .KLIK-FILM .overlap-9 {
+    position: absolute;
+    width: 382px;
+    height: 502px;
+    top: 1373px;
+    left: 529px;
+    background-image: url(./img/rectangle-64.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .KLIK-FILM .overlap-10 {
+    position: absolute;
+    width: 382px;
+    height: 502px;
+    top: 1915px;
+    left: 529px;
+    background-image: url(./img/rectangle-70.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .KLIK-FILM .overlap-11 {
+    position: absolute;
+    width: 382px;
+    height: 502px;
+    top: 2457px;
+    left: 529px;
+    background-image: url(./img/rectangle-76.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .KLIK-FILM .overlap-12 {
+    position: absolute;
+    width: 382px;
+    height: 502px;
+    top: 831px;
+    left: 943px;
+    background-image: url(./img/rectangle-61.png);
+    background-size: 100% 100%;
+  }
+  
+  .KLIK-FILM .overlap-13 {
+    position: absolute;
+    width: 382px;
+    height: 502px;
+    top: 1373px;
+    left: 943px;
+    background-image: url(./img/rectangle-65.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .KLIK-FILM .overlap-14 {
+    position: absolute;
+    width: 382px;
+    height: 502px;
+    top: 1915px;
+    left: 943px;
+    background-image: url(./img/rectangle-71.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .KLIK-FILM .overlap-15 {
+    position: absolute;
+    width: 382px;
+    height: 502px;
+    top: 2457px;
+    left: 943px;
+    background-image: url(./img/rectangle-77.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  

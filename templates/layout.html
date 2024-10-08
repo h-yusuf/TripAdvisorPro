@@ -1,0 +1,36 @@
+<!-- templates/layout.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesona Yogyakarta</title>
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+    <!-- Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-gray-900 p-4 text-white">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Pesona Yogyakarta</h1>
+            <div class="flex items-center">
+                <input type="text" placeholder="Pencarian" class="px-2 py-1 rounded-l bg-white text-black">
+                <button class="bg-blue-500 px-4 py-1 rounded-r">Cari</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container mx-auto py-8">
+        {% block content %}{% endblock %}
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 p-4 text-white">
+        <div class="container mx-auto text-center">
+            <p>© 2024 Pesona Yogyakarta. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
